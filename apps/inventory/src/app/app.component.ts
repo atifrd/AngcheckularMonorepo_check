@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router, RouterModule } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
 @Component({
@@ -10,14 +10,5 @@ import { NxWelcomeComponent } from './nx-welcome.component';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'angular-store';
-  constructor(private router: Router) {
-  }
-
-
-  // onRClick(): void {
-  //   //this.router.navigateByUrl(`http://localhost:56663/`);
-  //   localStorage.setItem('dataSource', 'salaaaaaaaam az angular app');
-  //   alert('hi')
-  // }
+  title = 'inventory';
 }

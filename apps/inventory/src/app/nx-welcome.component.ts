@@ -430,12 +430,9 @@ import { CommonModule } from '@angular/common';
       <div class="container">
         <!--  WELCOME  -->
         <div id="welcome">
-          <h1> 
-          
-          
-          <a href="http://localhost:56663/">link to Inventory</a>
+          <h1>
             <span> Hello there, </span>
-            Welcome angular-store 👋
+            Welcome inventory 👋
           </h1>
         </div>
         <!--  HERO  -->
@@ -839,7 +836,7 @@ nx g &#64;nx/angular:component ui/src/lib/button</pre>
               </svg>
               View project details
             </summary>
-            <pre>nx show project angular-store --web</pre>
+            <pre>nx show project inventory --web</pre>
           </details>
           <details>
             <summary>
@@ -907,10 +904,4 @@ nx affected:e2e</pre>
   styles: [],
   encapsulation: ViewEncapsulation.None,
 })
-export class NxWelcomeComponent {
-  constructor() {
-    localStorage.setItem('dataSource', 'salaaaaaaaam az angular app');
-  }
-
- 
-}
+export class NxWelcomeComponent {}
